@@ -1,11 +1,11 @@
 class Student {
 
-    Integer roll;   
+    int roll; 
     String name;
 
     Student() {
-        roll = 0;
-        name = "Unknown";
+        roll = 1;
+        name = "Harshit";
     }
 
     Student(Integer r, String n) {
@@ -20,7 +20,7 @@ class Student {
     public static void main(String[] args) {
 
         Student s1 = new Student();
-        Student s2 = new Student(1, "Rad");
+        Student s2 = new Student(20, "Harshit");
 
         s1.display();
         s2.display();
